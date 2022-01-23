@@ -1,5 +1,6 @@
+#include <iostream>
+
 #include <tugui.hpp>
-//#include <initializer_list>
 
 using namespace TUGUI;
 
@@ -20,7 +21,8 @@ int TUGUI_MAIN() {
     pe.setColor(CYAN); pe(rect5);
     pe.setColor(BLUE); pe(rect6);
 
-    while(1);
+    int c;
+    std::cin >> c;
     
     return 0;
 }
