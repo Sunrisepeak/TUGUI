@@ -1,7 +1,6 @@
 #include <iostream>
 
-#include <tugui.hpp>
-//#include <initializer_list>
+#include <core/tugui.hpp>
 
 using namespace TUGUI;
 
